@@ -1,5 +1,8 @@
 title: Articles
 route: '{slug}'
+sites:
+  - en
+  - fr
 template: article
 revisions: false
 date: true

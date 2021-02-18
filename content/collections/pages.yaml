@@ -1,6 +1,13 @@
 title: Pages
+sites:
+  - en
+  - fr
+revisions: false
+route: '{parent_uri}/{slug}'
 structure:
   root: true
   tree:
-    - entry: home
-route: "{parent_uri}/{slug}"
+    en:
+      -
+        entry: home
+    fr: {  }
